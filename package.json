@@ -1,6 +1,6 @@
 {
   "name": "registration_page",
-  "start": "https://shamswazir.github.io/reactlive",
+  "start": "https://shamswazir.github.io/reactlive/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
