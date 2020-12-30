@@ -8,11 +8,12 @@ import Login from './Login';
 function App() {
 
     return (
-  
+      <>
+       <Registration/>
       <Switch>
         <Route exact path="/login" component={Login}/>
-        <Route component={Registration}/>
       </Switch>
+      </>
     )
 }
 
