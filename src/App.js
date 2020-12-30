@@ -11,7 +11,7 @@ function App() {
   
       <Switch>
         <Route exact path="/login" component={Login}/>
-        <Route component={Registration}/>
+        <Route exact path="/reactlive/" component={Registration}/>
       </Switch>
     )
 }
