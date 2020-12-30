@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import {Link} from 'react-router-dom';
+import {Login} from './Login';
 
 function Registration() {
     
@@ -107,7 +107,7 @@ if(password.trim().length>=1&&password.trim().length<=5){
            </div>
            <div className="createAccount">
              <button type="submit">Create Account</button>
-             <Link to='/login'>Already Have an Account</Link>
+             <link src={Login}>Already Have an Account</link>
            </div>
          </form>
        </div>
