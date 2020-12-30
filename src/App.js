@@ -10,8 +10,8 @@ function App() {
     return (
   
       <Switch>
-        <Route exact path="/" component={Registration}/>
         <Route exact path="/login" component={Login}/>
+        <Route component={Registration}/>
       </Switch>
     )
 }
